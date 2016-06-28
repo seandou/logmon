@@ -1,0 +1,12 @@
+npm-debug.log
+node_modules
+test
+sample
+
+.DS_STORE
+.DS_Store
+
+*.log
+*.dat
+*.out
+*.gz

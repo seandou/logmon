@@ -1,0 +1,29 @@
+{
+  "name": "logmon",
+  "version": "0.0.1",
+  "description": "basic tools for moniting log in real time",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "through": "^2.3.8"
+  },
+  "scripts": {
+    "release:major": "npm version major && npm publish && git push --follow-tags",
+    "release:minor": "npm version minor && npm publish && git push --follow-tags",
+    "release:patch": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seandou/logmon.git"
+  },
+  "keywords": [
+    "log",
+    "monitor",
+    "realtime"
+  ],
+  "author": "Sean Dou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seandou/logmon/issues"
+  },
+  "homepage": "https://github.com/seandou/logmon#readme"
+}
